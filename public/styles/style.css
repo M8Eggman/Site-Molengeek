@@ -4,7 +4,31 @@ body {
 /* header */
 header {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 40px;
+    height: auto;
+    background-color: #9b009d;
 }
-img {
+header img {
     height: 40px;
+}
+header img, header label {
+    opacity: 75%; 
+} 
+header input{
+    height: 25px;
+    border: none;
+    border-radius: 3px;
+}
+header label, #inscrire {
+    color: white;
+}
+header #inscrire {
+    background-color: #00e173;
+    height: 27px;
+}
+header input:placeholder-shown {
+    font-style: italic;
 }

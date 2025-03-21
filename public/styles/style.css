@@ -12,13 +12,15 @@ header {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    align-items: center;
-    min-height: 40px;
-    height: auto;
+    height: 40px;
     background-color: #9b009d;
 }
 header img {
-    height: 40px;
+    height: 52px;
+    filter: invert(100%);
+}
+header form {
+    padding-top: 6px;
 }
 header img, header label {
     opacity: 75%; 

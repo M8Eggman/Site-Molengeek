@@ -74,6 +74,10 @@ nav section:nth-of-type(2) {
     align-items: center;
     flex: 1;
 }
+nav section:nth-of-type(2) p:nth-of-type(2)::after  {
+    content: "";
+    width: 10px;
+}
 nav section:nth-of-type(3) {
     padding-top: 35px;
     padding-bottom: 29px;
@@ -101,14 +105,28 @@ main section div:last-of-type p:last-of-type {
     margin-bottom: 82px;
 }
 main section li:first-of-type {
-    margin-top: 49px;
+    margin-top: 43px;
 }
 main section li {
-    margin-top: 24px;
-    list-style-image: ;
+    margin-bottom: 13px;
+    line-height: 30px;
+}
+main section ul {
+    list-style-type: none
+}
+main section li::before {
+    content: "";
+    display: inline-block;
+    width: 7px;
+    height: 7px;
+    background-color:#9b009d;
+    border-radius: 50%;
+    position: relative;
+    right: 24px;
+    bottom: 2px;
 }
 main section h2 {
-    margin-top: 80px;
+    margin-top: 44px;
     font-size: 40px;
     font-weight: normal;
     margin-bottom: 0px;
@@ -121,12 +139,13 @@ footer {
     background-color: #363636;
 }
 footer img {
-    height:100px;
-    padding-top: 50px;
+    height:80px;
+    padding-top: 100px;
 }
 footer section p {
     color: white;
-    padding-block: 20px;
+    padding-top: 20px;
+    padding-bottom: 53px;
     padding-inline: 25px;
 }
 footer section:last-of-type p {
@@ -137,7 +156,7 @@ footer section:first-of-type {
     width: 100%;
     justify-content: center;
     border-bottom: solid #444444;
-    gap: 20px;
+    gap: 53px;
 }
 footer i {
     color: white;
@@ -148,8 +167,8 @@ footer i {
 .icone {
     border-radius: 50%;
     border: 2px white solid;
-    height: 30px;
-    width: 30px;
+    height: 34px;
+    width: 34px;
     position: relative;
     top: 62px;
     right: 15px;

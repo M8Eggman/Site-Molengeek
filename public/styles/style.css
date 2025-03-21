@@ -104,3 +104,18 @@ footer section:first-of-type {
     border-bottom: solid #444444;
     gap: 20px;
 }
+footer i {
+    color: white;
+    position: relative;
+    left: 8px;
+    top: 7px;
+}
+.icone {
+    border-radius: 50%;
+    border: 2px white solid;
+    height: 30px;
+    width: 30px;
+    position: relative;
+    top: 62px;
+    right: 15px;
+}

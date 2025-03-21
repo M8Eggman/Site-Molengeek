@@ -1,3 +1,10 @@
+.montserrat{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
 body {
     margin: 0;
 }
@@ -72,9 +79,24 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
-
+    background-color: #363636;
 }
 footer img {
     height:100px;
-
+    padding-top: 50px;
+}
+footer section p {
+    color: white;
+    padding-block: 20px;
+    padding-inline: 25px;
+}
+footer section:last-of-type p {
+    color: #444444;
+}
+footer section:first-of-type {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    border-bottom: solid #444444;
+    gap: 20px;
 }

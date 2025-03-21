@@ -32,3 +32,12 @@ header #inscrire {
 header input:placeholder-shown {
     font-style: italic;
 }
+/* navbar */
+nav{
+    display: flex;
+    justify-content: space-between;
+
+}
+nav img {
+    height: 80px;
+}

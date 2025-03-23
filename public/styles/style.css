@@ -74,15 +74,8 @@ nav section:nth-of-type(2) {
     align-items: center;
     flex: 1;
 }
-nav section:nth-of-type(2) p:nth-of-type(2) a:hover::before{
-    content: "";
-    display: inline-block;
-    background-color: black;
-    width: 75px;
-    height: 2px;
-    position: relative;
-    top: 3px;
-    left: 74px;
+nav section:nth-of-type(2) p:hover{
+    text-decoration: underline 2px;
 }
 nav section:nth-of-type(2) p:nth-of-type(2)::after  {
     content: "";
@@ -101,7 +94,6 @@ main section h1 {
     font-size: 48px;
     margin-top: 76px;
     padding-bottom: 51px;
-    border-bottom: 1px solid #9b009d;
     font-weight: normal;
     text-align: center;
 }
@@ -123,6 +115,21 @@ main section li {
 }
 main section ul {
     list-style-type: none
+}
+main section h1 {
+    position: relative;
+    right: 20px;
+}
+main section h1::before {
+    content: ""; 
+    display: inline-block;
+    position: relative;
+    width: 47px;
+    height: 1px;
+    background-color: #9b009d;
+    border-radius: 5px;
+    left: 144px;
+    top: 63px;
 }
 main section li::before {
     content: "";
@@ -171,8 +178,8 @@ footer section:first-of-type {
 footer i {
     color: white;
     position: relative;
-    left: 8px;
-    top: 7px;
+    left: 10px;
+    top: 8px;
 }
 .icone {
     border-radius: 50%;
@@ -180,6 +187,6 @@ footer i {
     height: 34px;
     width: 34px;
     position: relative;
-    top: 62px;
-    right: 15px;
+    top: 63px;
+    right: 18px;
 }

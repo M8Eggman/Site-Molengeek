@@ -175,6 +175,10 @@ footer section:first-of-type {
     border-bottom: solid #444444;
     gap: 53px;
 }
+footer a {
+    text-decoration: none;
+    color: white; 
+}
 footer i {
     color: white;
     position: relative;
